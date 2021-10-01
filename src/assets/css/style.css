@@ -68,8 +68,7 @@ h2{
 b{
     color: white;
 }
-#F,
-#C{
+#fahrenheit, #celsius {
     color: black;
     background-color: lightgray;
     height: 40px;
@@ -77,8 +76,7 @@ b{
     font-size: 15px;
     font-weight: bold;
 }
-#F:hover,
-#C:hover{
+#fahrenheit:hover, #celsius:hover{
     cursor: pointer;
     background-color: gray;
 }
