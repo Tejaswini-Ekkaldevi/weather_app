@@ -1,0 +1,84 @@
+#container {
+    height: 98vh;
+    width: 100%;
+}
+body{
+    background-image:url('../images/img3.png');
+}
+h1{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    max-width: 1000px;
+    padding: 20px 600px;
+    text-align: center;
+
+}
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 200px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666565;
+    text-align: left;
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a8a2a2;
+    margin: 0;
+    padding: 9px 15px;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+.info{
+    text-align: center;
+    height: 300px;
+    width: 320px;
+    margin: 20px 600px;
+    align-items: center;
+    border-radius: 30px;
+    color: grey;
+    background-color: #d7efed;
+}
+#temp-switch{
+    text-align: center;
+    height: 50px;
+    width: 160px;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 140px 55px;
+}
+h2{
+    padding: 20px 20px;
+    color: rgb(14, 13, 13);
+}
+b{
+    color: white;
+}
+#F,
+#C{
+    color: black;
+    background-color: lightgray;
+    height: 40px;
+    width: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#F:hover,
+#C:hover{
+    cursor: pointer;
+    background-color: gray;
+}

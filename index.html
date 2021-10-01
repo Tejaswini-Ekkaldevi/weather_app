@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <link href="./src/assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Simple Weather App</h1>
+        
+        <!--<img src="./src/assets/images/img.png">-->
+            <form>
+                <input id="search" type="search" placeholder="search for a new city" required /> &nbsp;&nbsp;
+                <button type="button" onclick="searchCity()">Search</button>
+            </form>
+
+            <div class="info">
+                <h2 class="name"></h2>
+                <div class="temp">
+                </div><br/>
+                <div class="hum">
+                </div><br/>
+                <div class="desc">
+
+                </div>
+            
+                <div id="temp-switch">
+                    <button id="F" onclick="switchTemp('F')">F</button> &nbsp; &nbsp;
+                    <button id="C" class="disabled" onclick="switchTemp('C')">C</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <script src="./src/js/main.js"></script>
+
+    </body>
+</html>
